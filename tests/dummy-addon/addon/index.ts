@@ -1,8 +1,24 @@
-export default class MyClass {
+export const FOO = 'hello';
+
+export class Class {
   /**
-   * Do the `foo` thing.
+   * FOO
    */
-  public foo(): string {
-    return 'ok';
+  get foo() {
+    return 'ok'
+  }
+
+  /**
+   * foo?
+   */
+  set foo(value: numer) {
+
+  }
+
+  /**
+   * BAR
+   */
+  static set bar(value: number) {
+    console.log(value);
   }
 }
