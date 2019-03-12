@@ -11,7 +11,7 @@ export class Class {
   /**
    * foo?
    */
-  set foo(value: numer) {
+  set foo(value: string) {
 
   }
 

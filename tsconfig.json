@@ -10,8 +10,6 @@
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
     "noFallthroughCasesInSwitch": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noEmitOnError": false,
     "noEmit": true,
