@@ -7,12 +7,15 @@ module.exports = {
     return addon.name.indexOf('dummy') !== 0;
   },
 
-  createDocsGenerator(inputTree, options) {
+  createDocsGenerator(inputTree, { destDir }) {
+    let { project } = this;
     let Generator = require('./lib/docs-generator');
+    let options = this.app.options['ember-cli-addon-docs-typedoc'] || {};
 
     return new Generator(inputTree, {
-      project: this.project,
-      destDir: options.destDir
+      project,
+      destDir,
+      packages: options.packages || [this.project.name()],
     });
   },
 };
