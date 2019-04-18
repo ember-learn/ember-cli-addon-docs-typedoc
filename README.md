@@ -1,35 +1,16 @@
 ember-cli-addon-docs-typedoc
 ==============================================================================
 
-[Short description of the addon.]
+This is an experimental package integrating [TypeDoc](https://typedoc.org/) with [AddonDocs](https://ember-learn.github.io/ember-cli-addon-docs). While an interesting experiment, I think there are likely to be better options for TypeScript + AddonDocs in the long run.
 
-
-Compatibility
-------------------------------------------------------------------------------
-
-* Ember.js v2.18 or above
-* Ember CLI v2.13 or above
-
+You're welcome to try this package out, but caveat emptor: I can't make any promises that it will meet your needs, and it's thoroughly undocumented and has no automated testing.
 
 Installation
 ------------------------------------------------------------------------------
 
 ```
-ember install ember-cli-addon-docs-typedoc
+yarn add --dev @dfreeman/ember-cli-addon-docs-typedoc
 ```
-
-
-Usage
-------------------------------------------------------------------------------
-
-[Longer description of how to use the addon in apps.]
-
-
-Contributing
-------------------------------------------------------------------------------
-
-See the [Contributing](CONTRIBUTING.md) guide for details.
-
 
 License
 ------------------------------------------------------------------------------
