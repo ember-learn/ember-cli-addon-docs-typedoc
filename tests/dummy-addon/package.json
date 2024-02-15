@@ -9,9 +9,14 @@
     "ember-cli-htmlbars": "*"
   },
   "devDependencies": {
-    "ember-cli-typescript": "*"
+    "@glimmer/component": "*",
+    "@glimmer/tracking": "*",
+    "ember-cli-typescript": "*",
+    "typescript": "*"
   },
   "ember-addon": {
-    "paths": ["../.."]
+    "paths": [
+      "../.."
+    ]
   }
 }
