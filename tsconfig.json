@@ -8,7 +8,7 @@
     "paths": {
       "dummy/tests/*": ["tests/*"],
       "dummy/*": ["tests/dummy/app/*", "app/*"],
-      "dummy-addon": ["tests/dummy-addon/*"],
+      "dummy-addon/*": ["tests/dummy-addon/*"],
       "@dfreeman/ember-cli-addon-docs-typedoc": ["addon"],
       "@dfreeman/ember-cli-addon-docs-typedoc/*": ["addon/*"],
       "@dfreeman/ember-cli-addon-docs-typedoc/test-support": [
