@@ -36,7 +36,9 @@ module.exports = {
         './testem.js',
         './blueprints/*/index.js',
         './config/**/*.js',
+        './lib/**/*.js',
         './tests/dummy/config/**/*.js',
+        './tests/dummy-addon/index.js',
       ],
       parserOptions: {
         sourceType: 'script',
