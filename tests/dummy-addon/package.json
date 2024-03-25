@@ -1,17 +1,40 @@
 {
   "name": "dummy-addon",
   "version": "0.0.0",
+  "repository": "ember-learn/ember-cli-addon-docs-typedoc",
+  "scripts": {
+    "build": "ember build --environment=production"
+  },
   "keywords": [
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "*",
-    "ember-cli-htmlbars": "*"
+    "ember-auto-import": "^2.7.2",
+    "ember-cli-babel": "^8.2.0",
+    "ember-cli-htmlbars": "^6.3.0"
   },
   "devDependencies": {
-    "ember-cli-typescript": "*"
+    "@ember/optional-features": "^2.1.0",
+    "@embroider/test-setup": "^3.0.3",
+    "@glimmer/component": "^1.1.2",
+    "@glimmer/tracking": "^1.1.2",
+    "ember-cli": "~5.7.0",
+    "ember-cli-addon-docs": "^7.0.1",
+    "ember-cli-addon-docs-typedoc": "workspace:*",
+    "ember-cli-typescript": "^5.3.0",
+    "ember-data": "^5.3.3",
+    "ember-qunit": "^8.0.2",
+    "ember-resolver": "^11.0.1",
+    "ember-source": "~5.7.0",
+    "qunit": "^2.20.1",
+    "typescript": "^5.4.3"
+  },
+  "ember": {
+    "edition": "octane"
   },
   "ember-addon": {
-    "paths": ["../.."]
+    "paths": [
+      "../.."
+    ]
   }
 }

@@ -5,11 +5,17 @@ This is an experimental package integrating [TypeDoc](https://typedoc.org/) with
 
 You're welcome to try this package out, but caveat emptor: I can't make any promises that it will meet your needs, and it's thoroughly undocumented and has no automated testing.
 
-Installation
-------------------------------------------------------------------------------
+## Compatibility
+
+* Ember.js v4.8 or above
+* Ember CLI v4.8 or above
+* Node.js v18 or above
+
+
+## Installation
 
 ```
-yarn add --dev @dfreeman/ember-cli-addon-docs-typedoc
+yarn add --dev ember-cli-addon-docs-typedoc
 ```
 
 License
