@@ -1,5 +1,5 @@
 {
-  "name": "@dfreeman/ember-cli-addon-docs-typedoc",
+  "name": "ember-cli-addon-docs-typedoc",
   "version": "0.1.0",
   "description": "TypeDoc plugin for ember-cli-addon-docs",
   "keywords": [
@@ -39,7 +39,7 @@
     "ensure-posix-path": "^1.1.1",
     "fs-extra": "^11.2.0",
     "json-api-serializer": "^2.6.6",
-    "kolay": "^0.0.8",
+    "kolay": "^0.0.9",
     "resolve": "^1.22.8",
     "typedoc": "^0.25.8"
   },
@@ -85,7 +85,7 @@
     "broccoli-asset-rev": "^3.0.0",
     "concurrently": "^8.0.1",
     "ember-cli": "~4.12.1",
-    "ember-cli-addon-docs": "^7.0.0",
+    "ember-cli-addon-docs": "^7.0.1",
     "ember-cli-dependency-checker": "^3.3.1",
     "ember-cli-inject-live-reload": "^2.1.0",
     "ember-cli-sri": "^2.1.1",
@@ -120,7 +120,7 @@
     "typescript": ">= 4.6"
   },
   "engines": {
-    "node": "14.* || 16.* || >= 18"
+    "node": "16.* || >= 18"
   },
   "ember": {
     "edition": "octane"

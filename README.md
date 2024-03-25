@@ -9,7 +9,7 @@ Installation
 ------------------------------------------------------------------------------
 
 ```
-yarn add --dev @dfreeman/ember-cli-addon-docs-typedoc
+yarn add --dev ember-cli-addon-docs-typedoc
 ```
 
 License

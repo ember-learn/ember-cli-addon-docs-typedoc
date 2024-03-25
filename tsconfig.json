@@ -9,12 +9,12 @@
       "dummy/tests/*": ["tests/*"],
       "dummy/*": ["tests/dummy/app/*", "app/*"],
       "dummy-addon/*": ["tests/dummy-addon/*"],
-      "@dfreeman/ember-cli-addon-docs-typedoc": ["addon"],
-      "@dfreeman/ember-cli-addon-docs-typedoc/*": ["addon/*"],
-      "@dfreeman/ember-cli-addon-docs-typedoc/test-support": [
+      "ember-cli-addon-docs-typedoc": ["addon"],
+      "ember-cli-addon-docs-typedoc/*": ["addon/*"],
+      "ember-cli-addon-docs-typedoc/test-support": [
         "addon-test-support"
       ],
-      "@dfreeman/ember-cli-addon-docs-typedoc/test-support/*": [
+      "ember-cli-addon-docs-typedoc/test-support/*": [
         "addon-test-support/*"
       ],
       "*": ["types/*"]

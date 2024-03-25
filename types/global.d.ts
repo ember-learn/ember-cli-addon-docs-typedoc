@@ -1,5 +1,5 @@
 // Types for compiled templates
-declare module '@dfreeman/ember-cli-addon-docs-typedoc/templates/*' {
+declare module 'ember-cli-addon-docs-typedoc/templates/*' {
   import { TemplateFactory } from 'ember-cli-htmlbars';
 
   const tmpl: TemplateFactory;

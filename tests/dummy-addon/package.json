@@ -1,6 +1,9 @@
 {
   "name": "dummy-addon",
   "version": "0.0.0",
+  "scripts": {
+    "build": "ember build --environment=production"
+  },
   "keywords": [
     "ember-addon"
   ],
@@ -11,7 +14,12 @@
   "devDependencies": {
     "@glimmer/component": "*",
     "@glimmer/tracking": "*",
+    "ember-cli": "*",
+    "ember-cli-addon-docs": "*",
+    "ember-cli-addon-docs-typedoc": "workspace:*",
     "ember-cli-typescript": "*",
+    "ember-resolver": "*",
+    "ember-source": "*",
     "typescript": "*"
   },
   "ember-addon": {
