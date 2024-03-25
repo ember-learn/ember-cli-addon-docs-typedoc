@@ -18,6 +18,7 @@
     "ember-cli-addon-docs": "*",
     "ember-cli-addon-docs-typedoc": "workspace:*",
     "ember-cli-typescript": "*",
+    "ember-data": "*",
     "ember-resolver": "*",
     "ember-source": "*",
     "typescript": "*"
