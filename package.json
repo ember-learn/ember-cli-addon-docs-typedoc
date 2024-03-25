@@ -6,7 +6,7 @@
     "ember-addon",
     "ember-cli-addon-docs-plugin"
   ],
-  "repository": "dfreeman/ember-cli-addon-docs-typedoc",
+  "repository": "ember-learn/ember-cli-addon-docs-typedoc",
   "license": "MIT",
   "author": "",
   "directories": {
